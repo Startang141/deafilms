@@ -1,4 +1,5 @@
 import NavigationBar from "./components/NavigationBar";
+import Intro from "./components/Intro";
 import "./style/landingPage.css"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div>
       <div className="myBg">  
       <NavigationBar/>
+      <Intro/>
       </div>
     </div>
   );
