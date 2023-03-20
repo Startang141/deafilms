@@ -1,5 +1,6 @@
 import NavigationBar from "./components/NavigationBar";
 import Intro from "./components/Intro";
+import Trending from "./components/Trending";
 import "./style/landingPage.css"
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
       <div className="myBg">  
       <NavigationBar/>
       <Intro/>
+      </div>
+      <div className="trending">
+      <Trending/>
       </div>
     </div>
   );
