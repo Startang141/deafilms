@@ -12,11 +12,11 @@ const Superhero = () =>{
         <Container>
             <br/>
             <br/>
-            <h1 className='text-white'>SUPERHERO</h1>
+            <h1 className='text-white'  id='superhero'>SUPERHERO</h1>
             <br/>
             <Row>
                 {/* card one */}
-                <Col  md={4} id='trending'>
+                <Col  md={4}>
                 <Card className="bg-dark text-white movieImage">
                 <Image src={antmanImages} alt="Card image" className='images' />
                 <div className='p-2'>

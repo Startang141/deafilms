@@ -12,11 +12,11 @@ const Trending = () =>{
         <Container>
             <br/>
             <br/>
-            <h1 className='text-white'>TRENDING</h1>
+            <h1 className='text-white' id='trending'>TRENDING</h1>
             <br/>
             <Row>
                 {/* card one */}
-                <Col  md={4} id='trending'>
+                <Col  md={4}>
                 <Card className="bg-dark text-white movieImage">
                 <Image src={duneImages} alt="Card image" className='images' />
                 <div className='p-2'>
